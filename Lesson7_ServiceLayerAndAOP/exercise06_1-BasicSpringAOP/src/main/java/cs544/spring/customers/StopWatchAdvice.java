@@ -16,7 +16,7 @@ public class StopWatchAdvice {
 		sw.stop();
 
 		long totaltime=sw.getLastTaskTimeMillis();
-        System.out.println("Time to execute "+call.getSignature().getName()+" = "+totaltime+" ms");
+        System.out.println("-----------StopWatchAdvice:  "+"Time to execute "+call.getSignature().getName()+" = "+totaltime+" ms");
 
 		return retVal;
 

@@ -20,4 +20,6 @@
 	<bean id="customerDAO"  class="customers.CustomerDAO" />
 	
 	<bean id="emailSender"  class="customers.EmailSender" />
+	
+	<bean id="logAdvice" class="customers.LogAdvice" />
 </beans>
