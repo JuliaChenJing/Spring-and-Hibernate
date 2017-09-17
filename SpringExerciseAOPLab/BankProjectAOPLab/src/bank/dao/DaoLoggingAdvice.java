@@ -9,7 +9,7 @@ public class DaoLoggingAdvice {
 
 	@After("execution(* bank.dao.*.*(..))")
 	public void log(JoinPoint joinpoint) {
-		System.out.println("Call was made to:" + joinpoint.getSignature().getName()
+		System.out.println("-----Call was made to: " + joinpoint.getSignature().getName()
 				+ " on " + joinpoint.getTarget().getClass());
 	}
 }

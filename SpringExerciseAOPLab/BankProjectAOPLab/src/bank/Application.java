@@ -18,8 +18,8 @@ public class Application {
 		IAccountService accountService = (IAccountService)context.getBean("accountService");
 
 		// create 2 accounts;
-		accountService.createAccount(1263862, "Frank Brown");
-		accountService.createAccount(4253892, "John Doe");
+		accountService.createAccount(1263862, "Julia Chen");
+		accountService.createAccount(4253892, "Bimal Parajuli");
 		
 		//use account 1;
 		accountService.deposit(1263862, 240);
@@ -31,8 +31,12 @@ public class Application {
 		accountService.transferFunds(4253892, 1263862, 100, "payment of invoice 10232");
 		// show balances
 		
+		
 		Collection<Account> accountlist = accountService.getAllAccounts();
 		Customer customer = null;
+		
+		System.out.println();
+		System.out.println();
 		for (Account account : accountlist) {
 			customer = account.getCustomer();
 			System.out.println("Statement for Account: " + account.getAccountnumber());
