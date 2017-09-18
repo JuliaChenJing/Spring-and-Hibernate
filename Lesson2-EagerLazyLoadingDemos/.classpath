@@ -5,5 +5,8 @@
 	<classpathentry kind="src" path="Demo-JPA-EagerLazy-PersistFind-NOTIDGEN/src/main/java"/>
 	<classpathentry kind="src" path="Demo-JPA-EagerLazy-PersistFind/src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/PROJECT/Spring-and-Hibernate/jar/hibernate_libraries/hibernate-3.2.6.ga.jar"/>
+	<classpathentry kind="lib" path="D:/PROJECT/Spring-and-Hibernate/jar/hibernate_libraries/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/PROJECT/Spring-and-Hibernate/jar/hibernate_libraries/javax.persistence-2.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
