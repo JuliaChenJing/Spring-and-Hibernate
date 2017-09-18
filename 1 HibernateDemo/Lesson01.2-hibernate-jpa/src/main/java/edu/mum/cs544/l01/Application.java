@@ -33,9 +33,9 @@ public class Application {
             session = sessionFactory.openSession();
 
             // Create new instance of Person and set values to it
-            Person person = new Person();
-            person.setFirstname("George");
-            person.setLastname("Washington");
+            Person president = new Person();
+            president.setFirstname("George");
+            president.setLastname("Washington");
 
             Person bimal = new Person();
             bimal.setFirstname("Bimal");
@@ -47,12 +47,12 @@ public class Application {
             
             tx = session.beginTransaction();
             // save the person
-            session.persist(person);
+            session.persist(president);
             session.persist(bimal);
             session.persist(julia);
             
             tx.commit();
-            output("get ID from detached bean : " + person.getId());
+            output("---get ID of president from detached bean : " + president.getId());
 
         } catch (HibernateException e) {
             System.err.println(e);
@@ -69,7 +69,7 @@ public class Application {
             // retrieve all
             @SuppressWarnings("unchecked")
             List<Person> persons = 
-                session.createQuery("from Person person order by person.lastname desc").list();
+                session.createQuery("from Person person order by person.firstname").list();
 
             for (Person p : persons) {
                 output("First name=" + p.getFirstname()
