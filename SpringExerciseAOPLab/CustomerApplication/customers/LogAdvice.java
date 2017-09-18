@@ -15,7 +15,7 @@ public class LogAdvice {
 				+ "\n email address= "+ email 
 				+ "\n message= " + message);
 		IEmailSender emailSender = (IEmailSender) joinpoint.getTarget();
-		System.out.println("\n outgoing mail server = "+emailSender.getOutgoingMailServer());
+		System.out.println(" outgoing mail server = "+emailSender.getOutgoingMailServer());
 	}
 
 }

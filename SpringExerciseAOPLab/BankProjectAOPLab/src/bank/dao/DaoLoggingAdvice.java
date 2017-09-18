@@ -7,6 +7,7 @@ import org.aspectj.lang.annotation.Aspect;
 @Aspect
 public class DaoLoggingAdvice {
 
+	//log all database access to the console
 	@After("execution(* bank.dao.*.*(..))")
 	public void log(JoinPoint joinpoint) {
 		System.out.println("-----Call was made to: " + joinpoint.getSignature().getName()

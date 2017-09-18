@@ -8,6 +8,7 @@ import org.springframework.util.StopWatch;
 @Aspect
 public class ServiceTimerAdvice {
 
+	//measure the time for all service level classes
 	@Around("execution(* bank.service.*.*(..))")
 	public Object time(ProceedingJoinPoint call) throws Throwable {
 		StopWatch sw = new StopWatch();
