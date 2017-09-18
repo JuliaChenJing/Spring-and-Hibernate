@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!-- hibernate is the bridge of POJO and database,it helps to create a table from POJO to database-->
+<hibernate-mapping>
+    <!--  stores the map between java class and table -->
+    <class name="edu.mum.cs544.l01.model.Person" table="PERSON">
+    
+    
+        <!--  every table should have a primary key as id -->
+        <id name="id" type="int">
+            <column name="ID" />   <!-- column name is the name of this attribute in the talbe -->
+            <!-- The <generator> subelement of id used to generate the unique
+             identifier for the objects of persistent class.  -->
+            <generator class="increment" />
+        </id>
+        
+        <property name="firstname" type="java.lang.String">
+            <column name="FIRSTNAME" />
+        </property>
+        
+        <property name="lastname" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        
+    </class>
+    
+</hibernate-mapping>

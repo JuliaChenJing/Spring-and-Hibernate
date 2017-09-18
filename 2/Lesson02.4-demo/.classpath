@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Demo-Hib-EagerLazy-PersistGet-NOTIDGEN/src/main/java"/>
+	<classpathentry kind="src" path="Demo-Hib-EagerLazy-PersistGet/src/main/java"/>
+	<classpathentry kind="src" path="Demo-JPA-EagerLazy-PersistFind-NOTIDGEN/src/main/java"/>
+	<classpathentry kind="src" path="Demo-JPA-EagerLazy-PersistFind/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

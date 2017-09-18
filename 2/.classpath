@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="exercise02-1-solution/exercise02-1/src/main/java"/>
+	<classpathentry kind="src" path="exercise02-2a-ORM-solution/exercise02-2a/src/main/java"/>
+	<classpathentry kind="src" path="exercise02-2b-ORM-solution/exercise02-2b/src/main/java"/>
+	<classpathentry kind="src" path="Lesson02.1-hibernate/src/main/java"/>
+	<classpathentry kind="src" path="Lesson02.2-hibernate/src/main/java"/>
+	<classpathentry kind="src" path="Lesson02.3-hibernate/src/main/java"/>
+	<classpathentry kind="src" path="Lesson02.4-demo/Demo-Hib-EagerLazy-PersistGet-NOTIDGEN/src/main/java"/>
+	<classpathentry kind="src" path="Lesson02.4-demo/Demo-Hib-EagerLazy-PersistGet/src/main/java"/>
+	<classpathentry kind="src" path="Lesson02.4-demo/Demo-JPA-EagerLazy-PersistFind-NOTIDGEN/src/main/java"/>
+	<classpathentry kind="src" path="Lesson02.4-demo/Demo-JPA-EagerLazy-PersistFind/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Lesson02.1-hibernate/target/classes"/>
+</classpath>

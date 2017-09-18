@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="productService" class="cs544.exercise5_1.ProductService">
+		<constructor-arg>
+			<list>
+				<bean class="cs544.exercise5_1.Product">
+					<constructor-arg index="0" value="234" />
+					<constructor-arg index="1" value="LCD TV" />
+					<constructor-arg index="2" value="895.50" />
+				</bean>
+
+				<bean class="cs544.exercise5_1.Product">
+					<constructor-arg index="0" value="239" />
+					<constructor-arg index="1" value="DVD Player" />
+					<constructor-arg index="2" value="315.00" />
+				</bean>
+				<bean class="cs544.exercise5_1.Product">
+					<constructor-arg index="0" value="423" />
+					<constructor-arg index="1" value="Plasma TV" />
+					<constructor-arg index="2" value="922.55" />
+				</bean>
+				<bean class="cs544.exercise5_1.Product">
+					<constructor-arg index="0" value="100" />
+					<constructor-arg index="1" value="Extra Product" />
+					<constructor-arg index="2" value="100.00" />
+				</bean>
+			</list>
+		</constructor-arg>
+	</bean>
+
+</beans>

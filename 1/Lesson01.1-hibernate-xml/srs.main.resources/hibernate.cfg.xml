@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<!-- Hibernate configuration file -->
+<hibernate-configuration>
+    <!-- this is a SESSION FACTORY -->
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
+        <property name="hibernate.connection.driver_class">org.h2.Driver</property>
+        <property name="hibernate.connection.url">jdbc:h2:~/test</property>
+        
+        <!-- stores the username and password of the database in your computer -->
+        <property name="hibernate.connection.username">sa</property>
+        <property name="hibernate.connection.password">sa</property>
+
+        <!-- Use the Hibernate built-in pool for tests. -->
+        <property name="hibernate.connection.pool_size">1</property>
+        
+        <!-- Create database -->
+        <property name="hibernate.hbm2ddl.auto">create-drop</property>
+        
+        <!-- some settings of hibernate -->
+        <!-- Show all SQL DML executed by Hibernate -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.use_sql_comments">true</property>
+        <property name="hibernate.format_sql">false</property>
+
+        <!-- this is the name of the hbm.xml file -->
+        <mapping resource="Person.hbm.xml" />
+    </session-factory>
+</hibernate-configuration>
