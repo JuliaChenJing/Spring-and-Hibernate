@@ -8,10 +8,6 @@ import cs544.spring.bank.domain.Customer;
 import cs544.spring.bank.jms.IJMSSender;
 import cs544.spring.bank.logging.ILogger;
 
-
-
-
-
 public class AccountService implements IAccountService {
 	private IAccountDAO accountDAO;
 	private ICurrencyConverter currencyConverter;

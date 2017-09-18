@@ -14,9 +14,10 @@ public class DaoLoggingAdvice {
 		this.logger = logger;
 	}
 
+	//Log every call to any method in the bank.dao package (using the Logger).
 	@After("execution(* cs544.spring.bank.dao.*.*(..))")
 	public void log(JoinPoint joinpoint) {
-		logger.log("Call was made to:" + joinpoint.getSignature().getName()
+		logger.log("-----Call was made to:" + joinpoint.getSignature().getName()
 				+ " on " + joinpoint.getTarget().getClass());
 	}
 }
