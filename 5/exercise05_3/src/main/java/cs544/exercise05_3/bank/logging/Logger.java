@@ -1,4 +1,4 @@
-package cs544.exercise5_3.bank.logging;
+package cs544.exercise05_3.bank.logging;
 
 public class Logger implements ILogger{
 

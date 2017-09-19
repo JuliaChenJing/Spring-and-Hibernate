@@ -1,4 +1,4 @@
-package cs544.exercise5_3.bank.domain;
+package cs544.exercise05_3.bank.domain;
 
 public class Customer {
 	private String name;

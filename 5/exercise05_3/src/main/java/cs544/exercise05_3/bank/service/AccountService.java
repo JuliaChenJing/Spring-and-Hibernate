@@ -1,15 +1,15 @@
-package cs544.exercise5_3.bank.service;
+package cs544.exercise05_3.bank.service;
 
 import java.util.Collection;
 
-import cs544.exercise5_3.bank.dao.AccountDAO;
-import cs544.exercise5_3.bank.dao.IAccountDAO;
-import cs544.exercise5_3.bank.domain.Account;
-import cs544.exercise5_3.bank.domain.Customer;
-import cs544.exercise5_3.bank.jms.IJMSSender;
-import cs544.exercise5_3.bank.jms.JMSSender;
-import cs544.exercise5_3.bank.logging.ILogger;
-import cs544.exercise5_3.bank.logging.Logger;
+import cs544.exercise05_3.bank.dao.AccountDAO;
+import cs544.exercise05_3.bank.dao.IAccountDAO;
+import cs544.exercise05_3.bank.domain.Account;
+import cs544.exercise05_3.bank.domain.Customer;
+import cs544.exercise05_3.bank.jms.IJMSSender;
+import cs544.exercise05_3.bank.jms.JMSSender;
+import cs544.exercise05_3.bank.logging.ILogger;
+import cs544.exercise05_3.bank.logging.Logger;
 
 
 

@@ -1,8 +1,8 @@
-package cs544.exercise5_3.bank.service;
+package cs544.exercise05_3.bank.service;
 
 import java.util.Collection;
 
-import cs544.exercise5_3.bank.domain.Account;
+import cs544.exercise05_3.bank.domain.Account;
 
 
 

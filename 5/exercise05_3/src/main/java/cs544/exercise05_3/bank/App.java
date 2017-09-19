@@ -1,12 +1,12 @@
-package cs544.exercise5_3.bank;
+package cs544.exercise05_3.bank;
 
 import java.util.Collection;
 
-import cs544.exercise5_3.bank.domain.Account;
-import cs544.exercise5_3.bank.domain.AccountEntry;
-import cs544.exercise5_3.bank.domain.Customer;
-import cs544.exercise5_3.bank.service.AccountService;
-import cs544.exercise5_3.bank.service.IAccountService;
+import cs544.exercise05_3.bank.domain.Account;
+import cs544.exercise05_3.bank.domain.AccountEntry;
+import cs544.exercise05_3.bank.domain.Customer;
+import cs544.exercise05_3.bank.service.AccountService;
+import cs544.exercise05_3.bank.service.IAccountService;
 
 
 public class App {

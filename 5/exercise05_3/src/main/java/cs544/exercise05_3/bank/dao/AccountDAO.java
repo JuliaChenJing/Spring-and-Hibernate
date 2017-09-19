@@ -1,8 +1,8 @@
-package cs544.exercise5_3.bank.dao;
+package cs544.exercise05_3.bank.dao;
 
 import java.util.*;
 
-import cs544.exercise5_3.bank.domain.Account;
+import cs544.exercise05_3.bank.domain.Account;
 
 public class AccountDAO implements IAccountDAO {
 	Collection<Account> accountlist = new ArrayList<Account>();
