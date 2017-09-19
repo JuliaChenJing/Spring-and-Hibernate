@@ -14,6 +14,7 @@ public class App {
 			if (product1 != null) {
 				System.out.println(product1.toString());
 			}
+			
 			Product product2 = productService.getProduct(239);
 			if (product2 != null) {
 				System.out.println(product2.toString());
