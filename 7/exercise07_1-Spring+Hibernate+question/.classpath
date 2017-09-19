@@ -27,5 +27,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/PROJECT/Spring-and-Hibernate/jar/hibernate_libraries/hibernate-3.2.6.ga.jar"/>
+	<classpathentry kind="lib" path="D:/PROJECT/Spring-and-Hibernate/jar/hibernate_libraries/javax.persistence-2.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/PROJECT/Spring-and-Hibernate/jar/hibernate_libraries/persistence-api-1.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
