@@ -2,7 +2,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
+        <!-Setter Injection
+    Setter-based DI is realized by calling setter methods on the user’s beans
+    after invoking a no-argument constructor
+    or no-argument static factory method to instantiate their bean.->
 	<bean id="president" class="edu.mum.cs544.l01.model.Person">
 		<property name="firstname" value="George" />
 		<property name="lastname" value="Washington" />
