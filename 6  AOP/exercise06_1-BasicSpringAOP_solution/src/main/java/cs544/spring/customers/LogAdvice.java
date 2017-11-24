@@ -7,6 +7,11 @@ import org.aspectj.lang.annotation.*;
 
 @Aspect
 public class LogAdvice {
+	/*
+	      In aspect-oriented programming a set of join points is called a pointcut.
+              A join point is a specification of when, in the corresponding main program, the aspect code should be executed. 
+              The join point is a point of execution in the base code where the advice specified in a corresponding pointcut is applied.
+       */
 	@After("execution(* cs544.spring.customers.EmailSender.sendEmail(..)) && args(email, message)")
 	public void log(JoinPoint joinpoint, String email, String message) {
 		System.out.println("---LogAdvice: "+ new Date() //now 
