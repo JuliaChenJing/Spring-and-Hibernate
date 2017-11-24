@@ -1,13 +1,17 @@
 package edu.mum.cs544.l01.model;
 
 public class Person {
-
+/*
+    Setter Injection
+    Setter-based DI is realized by calling setter methods on the user’s beans
+    after invoking a no-argument constructor
+    or no-argument static factory method to instantiate their bean.*/
 	private int id;
-    private String firstname;
-    private String lastname;
+        private String firstname;
+        private String lastname;
 
-    public Person() {
-    }
+        public Person() {
+        }
 
 	public String getFirstname() {
 		return firstname;
