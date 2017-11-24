@@ -10,7 +10,9 @@
 		<property name="firstname" value="George" />
 		<property name="lastname" value="Washington" />
 	</bean>
-
+  <!- Constructor Injection
+Constructor-based DI is realized by invoking a constructor with a number of arguments, 
+	each representing a collaborator.->
 	<bean id="helloWorld" class="edu.mum.cs544.l01.greeting.HelloPerson">
 		<constructor-arg ref="president" />
 	</bean>
